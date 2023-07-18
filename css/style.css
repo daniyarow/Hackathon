@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,400;1,500&display=swap");
+
+body {
+  background-color: #000000;
+}
+
+/* Start Menu */
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 4.5px #dddddd solid;
+  width: 156px;
+  height: 999px;
+  background-color: #222222;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.Menu__titles {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.Menu__img img {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.Menu__list {
+  list-style: none;
+  border-bottom: 0.5px #333333 solid;
+  margin: 10px 20px;
+  padding: 0;
+}
+
+.Menu__list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 156px;
+  height: 47px;
+}
+
+.Menu__list a {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.Menu__list li:hover {
+  border-right: 2px #0099e5 solid;
+  background-color: #333333;
+}
+
+.Menu__search {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: #f5f5f5;
+  background-color: #222222;
+  border: 1px #f5f5f5 solid;
+  border-radius: 4px;
+  margin: 25px 35px 35px 35px;
+  padding: 5px 22px 5px 8px;
+  width: 125px;
+  height: 34px;
+}
+
+.Menu__network img {
+  margin: 7px;
+  width: 28px;
+  height: 28px;
+}
+
+/* End Menu */
+
+.container {
+  margin-left: 177px;
+  max-width: 1357px;
+}
+
+/* Start Biography */
+
+.biography {
+  display: flex;
+}
+
+.biography__me img {
+  width: 678px;
+  height: 557px;
+}
+
+.biography__text {
+  padding: 70px 73px;
+  width: 532px;
+  height: 417px;
+  background-color: #333;
+}
+
+.biography__text span {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  color: #a5a5a5;
+}
+.biography__text h1 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  color: #f5f5f5;
+  margin: 0 0 15px;
+}
+.biography__text p {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  color: #d5d5d5;
+  margin: 0 0 15px;
+}
+
+/* End Biography */
+
+/* Start Resume */
+
+.Resume {
+  position: relative;
+  margin-top: 15px;
+  padding: 55px;
+  background-color: #222222;
+  padding-bottom: 15px;
+}
+
+.Resume__title a {
+  position: absolute;
+  left: 250px;
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.Resume__club1 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+  margin-left: 800px;
+  padding: 13px;
+  width: 400px;
+  height: auto;
+  background-color: #333;
+  border-radius: 18px;
+}
+
+.Resume__club2 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+  margin-left: 53px;
+  padding: 13px;
+  width: 500px;
+  height: auto;
+  background-color: #333;
+  border-radius: 18px;
+}
+
+.Resume__club3 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+  margin-left: 680px;
+  padding: 13px;
+  width: 550px;
+  background-color: #333;
+  border-radius: 18px;
+}
+
+.Resume__club4 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+  margin-left: 117px;
+  padding: 13px;
+  width: 450px;
+  background-color: #333;
+  border-radius: 18px;
+}
+
+/* End Resume */
+
+/* Start Trophies */
+
+.Trophies {
+  background-color: #222222;
+}
+
+.Trophies__title {
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+  font-size: 35px;
+  margin: 20px 40px;
+}
+
+.Trophies__title h2 {
+  margin: 0;
+}
+
+hr {
+  width: 1000px;
+}
+
+.Trophies__img img {
+  padding: 7px;
+}
+
+.Trophies__img img:hover {
+  width: 391px;
+  height: 259px;
+  transition: 0.3s;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Trophies__img {
+  margin-left: 45px;
+}
+
+/* End Trophies */
+
+/* Start Contact */
+
+.Contact {
+  margin-top: 15px;
+  background-color: #222222;
+}
+
+.Contact__list_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Contact__list {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+  border: 0.5px #f5f5f5 solid;
+  background-color: #333333;
+  width: 281px;
+  height: 126px;
+  margin: 20px 15px;
+}
+
+.Contact__list span {
+  font-size: 18px;
+}
+
+.Contact__list p {
+  color: #a5a5a5;
+  font-size: 14px;
+}
+
+.Contact__list:hover {
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.Contact__title {
+  padding: 10px;
+  margin-left: 40px;
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #f5f5f5;
+}
+
+/* End Contact */
